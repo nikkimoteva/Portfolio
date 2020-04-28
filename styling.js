@@ -1,4 +1,5 @@
-//import anime from '../../node_modules/animejs/lib/anime.es.js';
+//Author: Nikki Moteva
+//Date Published: April 27, 2020
 
 function hiddenDiv(val) {
     document.getElementById('to-hide').style.display = 'none';
@@ -27,21 +28,6 @@ function hiddenDiv(val) {
         document.getElementById('hidden_div4').style.display = 'block';
     }
 }
-
-/*var textWrap = document.querySelector('.animate');
-textWrap.innerHTML = textWrap.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-anime.timeline().add ({
-    targets: '.animate .letter',
-    opacity: [0,1],
-    easing: "easeInOutQuad",
-    duration: 2250,
-    delay: (el, i) => 150 * (i+1)
-}).add({
-    targets: '.animate',
-    opacity: 0,
-    easing: "easeOutExpo",
-    delay: 1000
-});*/
 
 // once the document is loaded
 document.addEventListener("DOMContentLoaded", function() { 
