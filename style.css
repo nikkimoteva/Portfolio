@@ -1,0 +1,149 @@
+html{
+  margin : 0;
+  padding : 0;
+}
+body {
+  margin: 0;
+  padding:0;
+  font-size: 1.8rem;
+  font-family: "Fira Sans", sans-serif;
+}
+.navbar {
+	background-color: #474747;
+}
+.page-scroll:hover {
+  color: #474747;
+
+}
+
+.ps_resume:hover {
+  color: #474747;
+}
+
+.navbar-nav > li > a {
+  color: rgba(238, 238, 238, 0.938);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.navbar-nav > li > a :hover {
+  color: rgba(238, 238, 238, 0.938);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.bio-section, .resume-head {
+	margin-bottom: 0px auto;
+	margin-top: 0px auto;
+}
+
+.button {
+  margin-left: 20%;
+}
+
+.r1, .r2, .r3 {
+  display: block;
+  float: left;
+  padding-bottom: 100px;
+  margin-left: 200px;
+}
+
+.ide1, .ide2, .ide3 {
+  display: block;
+  float: left;
+  padding-bottom: 100px;
+  margin-left: 200px;
+}
+
+.dm {
+  float: left;
+  padding-bottom: 100px;
+  margin-left: 250px;
+}
+
+.ide {
+  float: left;
+  padding-bottom: 100px;
+  margin-left: 150px;
+}
+
+.about {
+  font-size:17px; 
+  display: block;
+}
+
+.animate, .non-animate {
+  position: relative;
+}
+.animate_s{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.animate_name, .animate_s {
+  display: inline-block;
+  margin-right: -0.55em;
+  margin-left: 4%;
+}
+
+.animate_website{
+  margin-left: 10%;
+}
+
+.animate_name, .animate_welcome, .animate_website, .animate_s {
+  font-size: 100px;
+}
+
+.animate_welcome {
+  margin-left: 5%;
+}
+
+#typed {
+  color: #eee;
+  font-size: 40px;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+  opacity: 0;
+  color: #eee;
+  font-size: 40px;
+}
+
+#skills_submit {
+  margin-right: 30px;
+  background: rgba(233, 145, 94, 0.911);
+  border: 1px solid rgba(139, 68, 74, 0.788);
+  padding: 4px 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+#skills_submit:hover {
+  color: whitesmoke;
+  border-color: rgba(207, 42, 42, 0.692);
+  background-color: rgba(168, 60, 69, 0.911);
+}
+
+.imgcontainer {
+  float: left;
+  margin-left: 50px;
+}
+
+
+#vcog {
+  margin-left: 575px;
+  margin-top: -965px;
+}
+
+#proj1 {
+  text-align: justify;
+  width: 450px;
+  margin-left: 60px;
+}
+
+#proj2 {
+  text-align: justify;
+  width: 450px;
+  margin-left: 627px;
+  margin-top: -346px;
+}
