@@ -41,7 +41,15 @@ body {
 }
 
 .button {
-  margin-left: 20%;
+  margin-top: -35px;
+  margin-left: 27%;
+}
+
+.selection{
+  margin-left: 10%;
+  color: rgb(92, 122, 151);
+  font-weight: bolder;
+  font-size: 17px;
 }
 
 .r1, .r2, .r3 {
