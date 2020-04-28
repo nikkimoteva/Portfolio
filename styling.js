@@ -100,14 +100,14 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-var descriptions = ['Software Engineer', 'Critical Thinker', 'Problem Solver', 'BiLingual', 'Designer', 'Leader',
+var keywords = ['Software Engineer', 'Critical Thinker', 'Problem Solver', 'BiLingual', 'Designer', 'Leader',
                     'Developer', 'Team Worker', 'Yogi', 'Hiker', 'Swimmer', 'Customer Oriented', 'Fast Learner',
-                    'Teacher', 'Detail Oriented', 'Runner']
+                    'Teacher', 'Detail Oriented', 'Runner', 'University of British Columbia', 'Computer Science']
 
 function display_intro(){
     document.getElementById('hidden_intro').style.display = 'block';
     var typed5 = new Typed('#typed', {
-        strings: descriptions,
+        strings: keywords,
         startDelay: 500,
         typeSpeed: 50,
         backSpeed: 50,
