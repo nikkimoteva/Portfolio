@@ -11,6 +11,9 @@ function hiddenDiv(val) {
             document.getElementById('hidden_div3').style.display = 'none';
             document.getElementById('hidden_div4').style.display = 'none';
             pl = true;
+            dm = false;
+            ide = false;
+            lang = false;
         }
         else {document.getElementById('hidden_div1').style.display = 'none';
             document.getElementById('to-hide').style.display = 'block';
@@ -24,6 +27,9 @@ function hiddenDiv(val) {
             document.getElementById('hidden_div3').style.display = 'none';
             document.getElementById('hidden_div4').style.display = 'none';
             dm = true;
+            pl = false;
+            ide = false;
+            lang = false;
         }
         else{
             document.getElementById('hidden_div2').style.display = 'none';
@@ -38,6 +44,9 @@ function hiddenDiv(val) {
             document.getElementById('hidden_div3').style.display = 'block';
             document.getElementById('hidden_div4').style.display = 'none';
             ide = true;
+            dm = false;
+            pl = false;
+            lang = false;
         }
         else {
             document.getElementById('hidden_div3').style.display = 'none';
@@ -52,6 +61,9 @@ function hiddenDiv(val) {
         document.getElementById('hidden_div3').style.display = 'none';
         document.getElementById('hidden_div4').style.display = 'block';
         lang = true;
+        dm = false;
+        ide = false;
+        pl = false;
         }
         else {
             document.getElementById('hidden_div4').style.display = 'none';
