@@ -150,9 +150,12 @@ body > div > div {
   background-color: rgba(168, 60, 69, 0.911);
 }
 
-.imgcontainer {
-  float: left;
-  margin-left: 50px;
+#mount {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:750px; 
+  height:400px;
 }
 
 
@@ -163,13 +166,12 @@ body > div > div {
 
 #proj1 {
   text-align: justify;
-  width: 450px;
-  margin-left: 60px;
+  margin-left: 15px;
 }
-
+/* 
 #proj2 {
   text-align: justify;
   width: 450px;
   margin-left: 627px;
   margin-top: -346px;
-}
+} */
